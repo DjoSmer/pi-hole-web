@@ -267,6 +267,24 @@
                         </li>
                     </ul>
                 </li>
+                <!-- Tools -->
+                <li class="menu-system treeview<?php if (in_array($scriptname, array('lancache-cache-domains.php'))) { ?> active<?php } ?>">
+                    <a href="#">
+                        <i class="fa fa-fw menu-icon fa-tools"></i> <span>LanCache</span>
+                        <span class="warning-count hidden"></span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <!-- Lancache -->
+                        <li class="<?php if ($scriptname === 'lancache-cache-domains.php') { ?> active<?php } ?>">
+                            <a href="lancache-cache-domains.php">
+                                <i class="fa fa-fw menu-icon fa-list"></i> Cache Domains
+                            </a>
+                        </li>
+                    </ul>
+                </li>
                 <!-- Settings -->
                 <li class="menu-system<?php if ($scriptname === 'settings.php') { ?> active<?php } ?>">
                     <a href="settings.php">
