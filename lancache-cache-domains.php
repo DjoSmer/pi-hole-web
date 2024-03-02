@@ -14,9 +14,9 @@ require 'scripts/pi-hole/php/header_authenticated.php';
         <div class="box">
             <div class="box-header with-border">
                 <h3 class="box-title">
-                    It works only with <a href="https://github.com/uklans/cache-domains">uklans/cache-domains</a>.
-                    You can create your own fork (or branch) or get <a href="https://github.com/DjoSmer/cache-domains">my
-                        fork</a>.
+                    It works only with <a target="_blank" href="https://github.com/uklans/cache-domains">uklans/cache-domains</a>.
+                    You can create your own fork (or branch) or get
+                    <a target="_blank" href="https://github.com/DjoSmer/cache-domains">my fork</a>.
                 </h3>
             </div>
             <div class="box-body">
