@@ -100,6 +100,8 @@ class CacheDomains
             }
         }
 
+        pihole_execute('restartdns');
+
         $this->echoEvent(returnSuccess("That's done."));
 
         return true;
